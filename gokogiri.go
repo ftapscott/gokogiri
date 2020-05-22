@@ -27,7 +27,7 @@ ParseXml parses an UTF-8 encoded byte array and returns an xml.XmlDocument. By d
 and suppress errors and warnings. This allows one to liberal in accepting badly-formed documents, but is not standards-compliant.
 
 If the content is not UTF-8 encoded or you want to customize the parsing options, you should call the Parse or ReadFile functions
-found in the github.com/moovweb/gokogiri/xml package. The xml.StrictParsingOption is conveniently provided for standards-compliant
+found in the github.com/ftapscott/gokogiri/xml package. The xml.StrictParsingOption is conveniently provided for standards-compliant
 behaviour.
 */
 func ParseXml(content []byte) (doc *xml.XmlDocument, err error) {

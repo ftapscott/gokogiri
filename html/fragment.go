@@ -5,8 +5,8 @@ import "C"
 import (
 	"bytes"
 	"errors"
-	. "github.com/moovweb/gokogiri/util"
-	"github.com/moovweb/gokogiri/xml"
+	. "github.com/ftapscott/gokogiri/util"
+	"github.com/ftapscott/gokogiri/xml"
 	"unsafe"
 )
 
